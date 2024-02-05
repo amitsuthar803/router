@@ -1,0 +1,28 @@
+nav {
+  background-color: teal;
+  height: 4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  gap: 5rem;
+}
+
+a {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+.active {
+  border-bottom: 2px solid yellow;
+}
+
+.active:visited {
+  color: black;
+}
